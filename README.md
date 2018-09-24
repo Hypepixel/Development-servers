@@ -30,7 +30,6 @@ In `Server` you will find the build scripts.
 
 [A guide to installing a Spigot server](https://www.spigotmc.org/wiki/spigot-installation/)
 
-
 ## License
 This project is licensed under the [MIT License](https://github.com/Gloryrock/Development-server/blob/master/LICENSE.md).
 Licenses of tools and dependencies are not included and may vary.
