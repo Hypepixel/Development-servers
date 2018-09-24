@@ -1,2 +1,5 @@
 # Ignore all non-original files that don't exist in the origin
-Server/
+Server/*
+
+# Exclude automation scripts
+!Server/*.bat
