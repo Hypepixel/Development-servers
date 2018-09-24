@@ -1,9 +1,2 @@
 # Ignore all non-original files that don't exist in the origin
-*
-
-!.gitignore
-!.gitattributes
-!*.md
-!*.bat
-
-!*/
+Server/
