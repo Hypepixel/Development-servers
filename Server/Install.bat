@@ -1,11 +1,11 @@
 @echo off
 curl -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
 pause
-java -jar BuildTools.jar --rev latest
+set /p version=Which version would you like to install? (latest, 1.13.1, etc.):
+java -jar BuildTools.jar --rev %version%
 pause
-for /r %startdir% %%a in (*) do if "%%~nxa"=="spigot" set p=%%~nx0
-if defined p (
-ren  %p% "Spigot.jar"
-) else (
-echo Unable to find Spigot!
+for /r %%a in (*spigot-*) do (
+    ren %%~nxa Spigot.jar
+    echo renaming %%~nxa
 )
+pause
