@@ -1,6 +1,6 @@
-ECHO OFF
-set source=E:\Folder
-set destination=E:\OutsideFolder
+@echo off
+set /p source=Please provide the absolute source path (where Spigot.jar is located):
+set /p destination=Please provide the absolute destination path:
 
 if exist %destination% goto GO
 :GO
