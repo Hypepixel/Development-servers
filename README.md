@@ -18,9 +18,9 @@ Name | Description | Version
 ### Steps
 In `Server` you will find the build scripts. 
 * Run `Install.bat`
-    * This will download the latest `BuildTools.jar` from `https://hub.spigotmc.org/`.
-    * It will ask you to specify which version of Spigot to install. They can be found [here](https://www.spigotmc.org/wiki/buildtools/#versions).
-    * It will then run `BuildTools.jar`to clone the specified version of Spigot.
+    * This will download the latest `BuildTools.jar` from `https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/`.
+    * It will ask you to specify which version of Spigot to install. They can be found [here](https://www.spigotmc.org/wiki/buildtools/#versions). Please keep in mind that the latest version is not always updated immediately.
+    * It will then run `BuildTools.jar` to clone the specified version of Spigot.
     * If the installation was succesful it will rename the Spigot java file to `Spigot.jar` for convenience of the `Start.bat` script.
 * Run `Start.bat`
     * This will start the server by calling `Spigot.jar`.
