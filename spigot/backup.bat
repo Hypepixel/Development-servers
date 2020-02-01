@@ -1,5 +1,5 @@
 @echo off
-set /p source=Please provide the absolute source path (where Spigot.jar is located):
+set source=%~dp0server/
 set /p destination=Please provide the absolute destination path:
 
 if exist %destination% goto GO
