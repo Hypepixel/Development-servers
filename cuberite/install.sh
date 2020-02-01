@@ -1,0 +1,1 @@
+curl -sSfL https://download.cuberite.org | sh

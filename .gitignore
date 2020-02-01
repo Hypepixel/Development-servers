@@ -7,3 +7,6 @@ cuberite/*
 !spigot/*.bat
 !paperMC/*.bat
 !cuberite/*.bat
+!spigot/*.sh
+!paperMC/*.sh
+!cuberite/*.sh
