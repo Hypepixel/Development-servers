@@ -1,5 +1,9 @@
 # Ignore all non-original files that don't exist in the origin
-Server/*
+Spigot/*
+PaperMC/*
+Cuberite/*
 
 # Exclude automation scripts
-!Server/*.bat
+!Spigot/*.bat
+!PaperMC/*.bat
+!Cuberite/*.bat
