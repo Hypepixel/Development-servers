@@ -1,9 +1,9 @@
 # Ignore all non-original files that don't exist in the origin
-Spigot/*
-PaperMC/*
-Cuberite/*
+spigot/*
+paperMC/*
+cuberite/*
 
 # Exclude automation scripts
-!Spigot/*.bat
-!PaperMC/*.bat
-!Cuberite/*.bat
+!spigot/*.bat
+!paperMC/*.bat
+!cuberite/*.bat
