@@ -1,4 +1,4 @@
-# Development-server
+# Development Servers
 Local scripts for Spigot, PaperMC, and Cuberite development server setups to quickly test plugins and configs. This repository helps automate the process of setting up a development server for Spigot. The scripts are programmed to use a clean folder structure with paths like `build` and `server` to seperate build steps and ouput.
 
 ## Table of contents
