@@ -34,7 +34,7 @@ In `spigot`, `cuberite` and `paper` you will find the build and start scripts.
     * For Spigot it will then run `BuildTools.jar` to clone the specified version of Spigot.
     * If the installation was succesful it will rename the java file to `spigot.jar`, `cuberite.jar` or `paper.jar` for convenience.
 * Run `start.bat`
-    * This will start the server by calling the server jar.
+    * This will start the server by calling the server jar with `-nogui` by default.
 
 ## References
 [Simple instructions to build CraftBukkit and Spigot](https://www.spigotmc.org/wiki/buildtools/)
