@@ -1,4 +1,5 @@
 @echo off
+
 set source=%~dp0server/
 set /p destination=Please provide the absolute destination path:
 
