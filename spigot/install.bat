@@ -7,7 +7,7 @@ if not exist %serverpath% md %serverpath%
 
 cd %buildpath%
 curl -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
-set /p version=Which version would you like to install? (latest, 1.15.2, etc.):
+set /p version=Which version would you like to install? (e.g. latest, 1.15.2, etc.):
 java -Xms1G -Xmx1G -jar BuildTools.jar --rev %version%
 for /r %%a in (*spigot-*) do (
     ren %%~nxa spigot.jar
