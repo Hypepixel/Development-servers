@@ -1,12 +1,12 @@
 # Ignore all non-original files that don't exist in the origin
 spigot/*
-paperMC/*
+paper/*
 cuberite/*
 
 # Exclude automation scripts
 !spigot/*.bat
-!paperMC/*.bat
+!paper/*.bat
 !cuberite/*.bat
 !spigot/*.sh
-!paperMC/*.sh
+!paper/*.sh
 !cuberite/*.sh
